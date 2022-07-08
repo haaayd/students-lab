@@ -65,7 +65,7 @@ function App() {
     }
   ]
 
-  const [numStudents]= useState(students)
+  const [numStudents, setNumStudents]= useState(students)
   return (
     <>
       <StudentList numStudents = {numStudents} />
